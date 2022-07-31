@@ -1,0 +1,22 @@
+# EyeSim Object File
+
+# Path to .obj file
+obj coneyellow.obj
+
+# Object name
+name Cone-Y
+
+# Scale
+scale 1
+
+# Mass properties: mass of object, followed by centre of mass
+# mass kg x y z
+mass 0.45 0 0 0
+
+# collider box <Vector3 centre> <Vector3 size>
+# collider capsule <Vector3 centre> <radius> <height> <x|y|z>
+# collider sphere <Vector3 centre> <radius>
+collider box 0 162.5 0 228 325 228
+
+# buoyancy <volume>
+buoyancy 0.0005

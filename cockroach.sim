@@ -1,0 +1,11 @@
+# Environment
+world mymaze2.maz
+
+settings VIS TRACE
+
+object ConeYellow/coneyellow.esObj
+Cone-Y 1700 500 45
+
+
+# Robot position (x, y, phi) and executable
+S4 S 90 cockroach-right.py
